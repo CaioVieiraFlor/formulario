@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título do meu website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+        <fieldset><!--Formulário-->
+            <legend>Meu formulário</legend><!--Nome do formulário-->
+            <div><input type="text" name="nome" placeholder="Digite o seu nome"></div><!--Campo para inserir o nome-->
+            <div><input type="text" name="nome" placeholder="Digite o seu e-mail"></div><!--Campo para inserir o e-mail-->
+            <div><!--Div da idade-->
+                <select name="lista"><!--Campo para selecionar a idade-->
+                    <!--Opções de idade-->
+                    <option disabled selected>Qual sua idade ?</option>
+                    <option>20</option>
+                    <option>25+</option>
+                    <option>40+</option>
+                </select>
+            </div><!--Div da cidade-->
+            <h2>Qual sua cidade ?</h2>
+            <div class="input"><!--Div de opções de cidade-->
+                <!--Opções de cidade-->
+            <div>
+                <input type="radio" name="cidade" value=""><span>Florianópolis</span>
+            </div>
+            <div>
+                <input type="radio" name="cidade" value=""><span>São Paulo</span>
+            </div>
+            <div>
+                <input type="radio" name="cidade" value=""><span>Rio de Janeiro</span>
+            </div>
+            </div>
+
+            <h2>O que você gosta de comer ?</h2>
+            <div class="input"><!--Div de opções de comida-->
+                <!--Opções de cidade-->
+            <div>
+                <input type="checkbox" name="cidade" value=""><span>Fruta</span>
+            </div>
+            <div>
+                <input type="checkbox" name="cidade" value=""><span>Fast food</span>
+            </div>
+            <div>
+                <input type="checkbox" name="cidade" value=""><span>Salada</span>
+            </div>
+            </div>
+
+            <div>
+                <textarea placeholder="Possui alguma observação ?"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" name="acao" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
